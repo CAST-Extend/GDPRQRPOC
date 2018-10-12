@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel  file_level="client" file_no="40">
+
+     <category name="GDPRViolation_CustomMetrics" id="2040010">
+        <description>Custom category for additional GDPR</description>
+            <!--<inheritedCategory name="CAST_Java_MethodsMetrics"/>-->
+        <!-- Curious useless ((TBD)) attribute declaration <attribute name="MetricName" stringValue="numberOfEmptySelectEndSelect"/> -->
+       <property name="GDPRJAVAViolation" type="integer" id="2040002">
+            <description>Java GDPR Violation</description>
+            <!--<inheritedCategory name="javaMethodSelectorType"/>-->
+            <attribute name="INF_TYPE" intValue="9"/>
+            <attribute name="INF_SUB_TYPE" intValue="2040000"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      </property>
+      <inheritedCategory name="APM Client Language Artifacts"/>
+     </category>
+    <partialType name="JV_FILE" >
+        <inheritedCategory name="GDPRViolation_CustomMetrics" />
+        <inheritedCategory name="APM Client Language Artifacts"/>
+     </partialType> 
+    
+  <partialCategory name="CAST_MetricAssistant_WithMetrics_Java">
+    <inheritedCategory name="GDPRViolation_CustomMetrics"/>
+    <inheritedCategory name="APM Client Language Artifacts"/>
+	</partialCategory>
+
+    
+     
+ </metaModel>

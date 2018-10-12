@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="associatedValueName">
+	    <english> gdpr violation patterns</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="description">
+	    <english>GDPR Java violation.</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="name">
+	    <english>GDPR Java violation</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="output">
+	    <english>GDPR Java violation.</english>
+    </metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="rationale">
+	    <english>GDPR Java violation.</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="remediation">
+	    <english>GDPR Java violation</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="remediationSample">
+	    <english>GDPR fixed.</english>
+	</metric>
+	
+	<metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="sample">
+	    <english>GDPR violation.</english>
+	</metric>
+	
+	 <metric id="2040010" type="quality-rule" originalName="Custom category for additional GDPR" section="total">
+		<english>The total procedure counts GDPR Access.</english>
+	 </metric>
+	 
+</root>
